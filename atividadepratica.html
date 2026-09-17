@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>oficina de tecnologia</title>
+</head>
+<body>
+
+    <h1>Oficina de tecnologia</h1>
+    <p>venha participar da nossa oficina, vamos aprender sobre programação, eletrônica e outras coisas legais</p>
+
+    <figure>
+        <img src="img/oi.jpg">
+        <figcaption>um de nossos projetos</figcaption>
+    </figure>
+
+    <h2>regras da oficina</h2>
+    <ul>
+        <li>nao pode comer dentro da oficina</li>
+        <li>nao pode bagunçar</li>
+        <li>tem que respeitar os colegas</li>
+    </ul>
+
+    <h2>horarios</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>horario</th>
+                <th>atividade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:00</td>
+                <td>programação</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td>eletronica</td>
+            </tr>
+            <tr>
+                <td>14:00</td>
+                <td>minecraft</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">fim as 16h</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>formulário de inscrição</h2>
+    <form>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha"><br><br>
+
+        <label>Turno:</label>
+        <input type="radio" id="manha" name="turno" value="manha">
+        <label for="manha">Manhã</label>
+        <input type="radio" id="tarde" name="turno" value="tarde">
+        <label for="tarde">Tarde</label><br><br>
+
+        <label>Áreas de interesse:</label>
+        <input type="checkbox" id="programacao" name="areas" value="programacao">
+        <label for="programacao">Programação</label>
+        <input type="checkbox" id="eletronica" name="areas" value="eletronica">
+        <label for="eletronica">Eletrônica</label><br><br>
+
+        <label for="curso">Curso:</label>
+        <select id="curso" name="curso">
+            <option value="informatica">Informática</option>
+            <option value="eletronica">Eletrônica</option>
+        </select><br><br>
+
+        <label for="mensagem">Comentário:</label><br>
+        <textarea id="mensagem" name="mensagem"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+</body>
+</html>
